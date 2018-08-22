@@ -24,7 +24,6 @@ namespace Server
                 Console.ReadLine();
 
                 await host.StopAsync();
-
                 return 0;
             }
             catch (Exception ex)
